@@ -1,0 +1,20 @@
+.centered-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Sesuaikan lebar formulir sesuai kebutuhan Anda */
+}
+
+/* CSS untuk tampilan formulir */
+.centered-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.centered-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}

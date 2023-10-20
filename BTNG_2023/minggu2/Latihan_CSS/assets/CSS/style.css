@@ -1,0 +1,72 @@
+/* h1 {
+    color: red;
+} */
+
+h1 {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 15px;
+    background-color: honeydew;
+}
+
+span {
+    color: red;
+}
+
+.container {
+    /* width: 400px;
+    height: auto; */
+    box-shadow: 10px 13px 0 -1px rgb(224, 151, 157);
+}
+
+#judul1 {
+    font-weight: 800;
+    color: red;
+    text-decoration: underline;
+}
+#judul2 {
+    font-weight: 800;
+    color:green;
+}
+
+.content {
+    background-color: beige;
+}
+
+.container2 {
+    color: blue;
+}
+
+.container content {
+    background-color: rebeccapurple;
+
+}
+
+.container2 p{
+    font-size: 20px;
+}
+
+.box {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.box a {
+    color: white;
+    font-size:30px ;
+}
+.box:hover {
+    background-color: black;
+}
+
+/* .box a:hover {
+    color: aqua;
+} */
+
+.box:hover > a {
+    color:aqua
+}

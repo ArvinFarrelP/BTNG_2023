@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Bootstrap</title>
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="p-5 m-3 bg-info w-50"></div>
+
+    <!-- text alignment, color, font size, font weight -->
+    <h1 class="text-center text-primary fs-2 fw-bolder fst-italic">
+      text center primary 2 bolder italic
+    </h1>
+    <h1 class="text-start text-success fs-3 fw-bold">
+      text start success 3 bold
+    </h1>
+    <h1 class="text-end text-danger fs-4 fw-normal">
+      text end danger 4 normal
+    </h1>
+
+    <!-- flexbox -->
+    <p>flex row reverse</p>
+    <div class="d-flex flex-row-reverse">
+      <div class="box p-3 bg-danger text-light fw-bold">Box 1</div>
+      <div class="box p-3 bg-primary text-info fw-bold">Box 2</div>
+      <div class="box p-3 bg-warning text-primary fw-bold">Box 3</div>
+    </div>
+
+    <p>flex</p>
+    <div class="d-flex">
+      <div
+        class="box p-3 bg-danger text-light fw-bold border border-dark border-3 rounded-top rounded-3"
+      >
+        Box 1
+      </div>
+      <div
+        class="box p-3 bg-primary text-info fw-bold border border-warning border-5 rounded-pill"
+      >
+        Box 2
+      </div>
+      <div
+        class="box p-3 bg-warning text-primary fw-bold border border-dark border-3 rounded-bottom"
+      >
+        Box 3
+      </div>
+    </div>
+
+    <p>flex justify content</p>
+    <div class="d-flex justify-content-center">
+      <div
+        class="box p-3 bg-danger text-light fw-bold border border-dark rounded-circle shadow"
+      >
+        Box 1
+      </div>
+      <div class="box p-3 bg-primary text-info fw-bold">Box 2</div>
+      <div class="box p-3 bg-warning text-primary fw-bold">Box 3</div>
+    </div>
+    <br />
+
+    <!-- layout bootstrap -->
+    <div class="row">
+      <div class="col-1 bg-warning text-light">col1</div>
+      <div class="col-1 bg-warning text-light">col1</div>
+      <div class="col-1 bg-warning text-light">col1</div>
+      <div class="col-1 bg-warning text-light">col1</div>
+      <div class="col-1 bg-warning text-light">col1</div>
+      <div class="col-1 bg-warning text-light">col1</div>
+      <div class="col-1 bg-warning text-light">col1</div>
+      <div class="col-1 bg-warning text-light">col1</div>
+      <div class="col-1 bg-warning text-light">col1</div>
+      <div class="col-1 bg-warning text-light">col1</div>
+      <div class="col-1 bg-warning text-light">col1</div>
+      <div class="col-1 bg-warning text-light">col1</div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-3 bg-primary text-light">col 3</div>
+      <div class="col-3 bg-success text-light">col 3</div>
+      <div class="col-3 bg-primary text-light">col 3</div>
+      <div class="col-3 bg-secondary text-light">col 3</div>
+    </div>
+    <br />
+
+    <div class="row">
+      <div class="col-6 bg-danger text-light">col 6</div>
+      <div class="col-6 bg-warning text-light">col 6</div>
+    </div>
+    <br />
+
+    <!-- latihan layout -->
+    <div class="row">
+      <div class="col-12 text-light bg-danger">
+        <h1 class="text-center">Judul</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3 bg-primary text-light">
+        <h1 class="text-center">sidebar 1</h1>
+        <ul>
+          <li>hallo</li>
+          <li>ini</li>
+          <li>sidebar</li>
+        </ul>
+      </div>
+      <div class="col-5 bg-warning text-light">
+        <h1 class="text-center">content 1</h1>
+        <div class="row">
+          <div class="col-6 bg-secondary">
+            <p class="text-center">CARD 1</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+              laudantium non deserunt unde aliquid repellendus omnis, rem ipsum
+              laboriosam porro?
+            </p>
+          </div>
+          <div class="col-6 bg-secondary">
+            <p class="text-center">CARD 2</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+              provident magni in rem obcaecati facilis veniam voluptate est
+              necessitatibus doloremque!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 bg-primary text-light">
+        <h1 class="text-center">content 2</h1>
+        <div class="row">
+          <div class="col-12 bg-success">
+            <p class="text-center">CARD 1</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed odio
+              placeat eum? Obcaecati nesciunt perferendis sequi dicta fuga
+              porro. Corrupti aliquid sint et repellat praesentium, ab
+              asperiores! Sunt dolorum facere mollitia, ut illo ipsum voluptatum
+              cum, voluptatem dolor quaerat magnam?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-light bg-danger text-center">
+        <footer>footer</footer>
+      </div>
+    </div>
+    <br />
+
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

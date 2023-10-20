@@ -1,0 +1,33 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .info {
+    margin-top: 20px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+
